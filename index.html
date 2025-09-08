@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Salário Líquido 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Calculadora de Salário Líquido</h2>
+
+    <p id="mensagemErro" class="erro hidden"></p>
+
+    <label for="salario">Salário Bruto:</label>
+    <input type="number" id="salario" placeholder="Digite seu salário bruto">
+
+    <button id="btnCalcular" class="btn-primario">Calcular</button>
+    <button id="btnLimparCalculo" class="btn-secundario hidden">Limpar Cálculo</button>
+
+    <div class="resultado hidden" id="resultado"></div>
+
+    <canvas id="grafico" width="400" height="200" class="hidden"></canvas>
+
+    <div class="historico hidden" id="historico">
+        <h3>Histórico de Cálculos</h3>
+        <ul id="listaHistorico"></ul>
+        <button id="btnExportar" class="btn-secundario">Exportar PDF</button>
+        <button id="btnLimpar" class="btn-perigo">Limpar Histórico</button>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
