@@ -1,84 +1,81 @@
-# Calculadora de Salário Líquido 2025
+# 💰 Calculadora de Salário Líquido 2025
 
-Calculadora de salário líquido para 2025, considerando descontos obrigatórios como INSS e IRRF. Permite calcular o salário líquido, visualizar gráficos de distribuição, acompanhar histórico de cálculos e exportar resultados em PDF.
+Aplicação web para cálculo do **salário líquido em 2025**, considerando descontos obrigatórios como **INSS** e **IRRF**, além de oferecer histórico de cálculos, gráficos de distribuição e exportação dos resultados em PDF.
+
+Projeto desenvolvido para fins de estudo e portfólio por **André Waldige**.
 
 ---
 
-## 🌐 Versão Online
+## 🌐 Demonstração Online
 
-Experimente sem instalar nada:  
-🔗 [calculadora-de-salario-liquido.vercel.app](https://calculadora-de-salario-liquido.vercel.app/)
+Acesse sem precisar instalar:
+
+🔗 https://calculadora-de-salario-liquido.vercel.app/
+
+---
+
+## 🖼️ Demonstração Visual
+![IMG_1261](https://github.com/user-attachments/assets/91b90c3a-1450-43d8-82af-b2f84fb35c5c)
+![IMG_1262](https://github.com/user-attachments/assets/fc6e2243-baf6-4395-917a-494b590a33f8)
+![IMG_1263](https://github.com/user-attachments/assets/946185a4-bab4-4cbb-9f33-e9ff2646498c)
+![IMG_1264](https://github.com/user-attachments/assets/4af84fe0-57dd-4966-8400-1f575c71ebd3)
 
 ---
 
 ## ⚡ Funcionalidades
 
-- **Cálculo automático do salário líquido** a partir do salário bruto.  
-- **Histórico de cálculos** durante a sessão.  
-- **Gráficos interativos** mostrando a proporção entre salário líquido e descontos (Chart.js).  
-- **Exportação em PDF** do histórico de cálculos (jsPDF).  
-- **Mensagens de erro** para entradas inválidas ou vazias.  
-- **Interface responsiva** para desktop e mobile.
+- ✅ Cálculo automático do salário líquido a partir do salário bruto  
+- ✅ Cálculo de descontos obrigatórios (INSS e IRRF)  
+- ✅ Histórico de cálculos durante a sessão  
+- ✅ Gráfico dinâmico mostrando distribuição entre líquido e descontos  
+- ✅ Exportação do histórico em PDF  
+- ✅ Validação de entradas inválidas  
+- ✅ Interface moderna e responsiva
 
 ---
 
-## 🖼 Detalhes Visuais
+## 🖼️ Interface
 
-- **Resultados:** Apresentados em uma caixa destacada, mostrando salário líquido e descontos.  
-- **Histórico:** Lista os cálculos realizados, com destaque para o último.  
-- **Gráfico:** Atualiza dinamicamente a cada novo cálculo, mostrando visualmente a distribuição de salário e descontos.  
-- **Botões:**  
-  - **Calcular** → realiza o cálculo.  
-  - **Limpar Cálculo** → reinicia o formulário.  
-  - **Exportar PDF** → salva o histórico em PDF.  
-  - **Limpar Histórico** → remove todos os cálculos da sessão.
+O sistema apresenta:
 
----
-
-## 🛠 Tecnologias
-
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)  
-- [Chart.js](https://www.chartjs.org/) – gráficos dinâmicos  
-- [jsPDF](https://github.com/parallax/jsPDF) – exportação em PDF  
+- 📦 Caixa de resultado destacando salário líquido e descontos
+- 📜 Histórico de cálculos realizados
+- 📊 Gráfico atualizado automaticamente a cada cálculo
+- 🎯 Botões de ação rápida:
+  - **Calcular**
+  - **Limpar cálculo**
+  - **Exportar PDF**
+  - **Limpar histórico**
 
 ---
 
-## 🚀 Como Usar
+## 🛠 Tecnologias Utilizadas
 
-1. Abra `index.html` no navegador.  
-2. Digite o **salário bruto** no campo indicado.  
-3. Clique **Calcular** para exibir o resultado líquido.  
-4. Confira o **histórico** e visualize o **gráfico** de distribuição.  
-5. Clique **Exportar PDF** para salvar os resultados ou **Limpar Histórico** para apagar os cálculos anteriores.  
+| Tecnologia | Uso |
+|------------|-----|
+| HTML5 | Estrutura da aplicação |
+| CSS3 | Layout e responsividade |
+| JavaScript | Lógica de cálculo e histórico |
+| Chart.js | Geração de gráficos |
+| jsPDF | Exportação em PDF |
+
+---
+
+## 🚀 Como Utilizar
+
+1. Abra o arquivo `index.html` no navegador ou utilize a versão online.
+2. Digite o **salário bruto**.
+3. Clique em **Calcular**.
+4. Veja o salário líquido e os descontos aplicados.
+5. Consulte o histórico e o gráfico atualizado.
+6. Exporte o histórico em PDF, se desejar.
 
 ---
 
 ## 📁 Estrutura do Projeto
-
-/calculadora-salario/
+calculadora-salario/
 │
 ├── index.html # Página principal
-├── style.css # Estilo visual e responsivo
-├── script.js # Lógica do cálculo, histórico e gráficos
+├── style.css # Estilos e layout
+├── script.js # Lógica e cálculos
 └── README.md # Documentação
-
-yaml
-Copiar código
-
----
-
-## 👥 Contribuição
-
-Contribuições são bem-vindas:  
-
-1. Fork do projeto  
-2. Criar branch para a feature (`git checkout -b feature/nova-feature`)  
-3. Commit das alterações (`git commit -am 'Adiciona nova feature'`)  
-4. Push da branch (`git push origin feature/nova-feature`)  
-5. Abrir Pull Request  
-
----
-
-## 📝 Licença
