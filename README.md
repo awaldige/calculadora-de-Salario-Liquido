@@ -118,9 +118,9 @@ Antes de utilizar os valores para decisões financeiras, confira as regras ofici
 
 André Waldige — AW TECHNOLOGY
 
-GitHub: @awaldige
+GitHub: (https://github.com/awaldige)
 
-Portfólio: andre-waldige.vercel.app
+Portfólio: (https://andre-waldige.vercel.app)
 
 E-mail: awaldige@gmail.com
 ---
