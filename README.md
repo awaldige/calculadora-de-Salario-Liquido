@@ -116,10 +116,13 @@ Antes de utilizar os valores para decisões financeiras, confira as regras ofici
 
 ## 👨‍💻 Autor
 
-**André Waldige — AW TECHNOLOGY**
+André Waldige — AW TECHNOLOGY
 
-🔗 [GitHub: @awaldige](https://github.com/awaldige)
+GitHub: @awaldige
 
+Portfólio: andre-waldige.vercel.app
+
+E-mail: awaldige@gmail.com
 ---
 
 ⭐ Se este projeto foi útil ou interessante, considere deixar uma estrela no repositório!
